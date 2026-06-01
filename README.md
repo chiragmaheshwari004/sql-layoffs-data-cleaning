@@ -2,27 +2,39 @@
 
 ## Project Overview
 
-This project demonstrates data cleaning techniques in MySQL using a real-world layoffs dataset.
+This project focuses on cleaning and preparing a real-world layoffs dataset using MySQL. The objective was to transform raw data into a clean and analysis-ready dataset by removing duplicates, handling missing values, standardizing data formats, and correcting inconsistencies.
 
-## Skills Used
+## Skills Demonstrated
 
 * SQL
 * Data Cleaning
-* Window Functions
-* CTEs
+* Window Functions (ROW_NUMBER)
+* Common Table Expressions (CTEs)
 * Joins
+* Aggregate Functions
 * Data Standardization
-* Null Handling
+* Null Value Handling
 
-## Cleaning Tasks Performed
+## Data Cleaning Process
 
-* Removed duplicate records
-* Standardized company and country names
-* Converted date formats
-* Handled missing values
-* Removed irrelevant records
+1. Created a staging table.
+2. Identified and removed duplicate records.
+3. Standardized company names.
+4. Standardized industry categories.
+5. Standardized country names.
+6. Converted date values to DATE format.
+7. Handled NULL and blank values.
+8. Removed records with insufficient information.
+9. Produced a clean dataset ready for analysis.
 
 ## Files
 
-* layoffs_data_cleaning.sql – Complete SQL cleaning script
+* DATA CLEANING.sql – Complete SQL cleaning script.
+* layoffs.xlsx – Original dataset.
+* screenshots/ – Project screenshots.
+
+## Project Outcome
+
+The dataset was successfully cleaned and transformed into a structured format suitable for exploratory data analysis and business insights.
+
 
