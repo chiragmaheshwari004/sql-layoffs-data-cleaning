@@ -1,19 +1,19 @@
-# SQL Data Cleaning Project – World Layoffs Dataset
+# SQL Data Cleaning Project – Layoffs Dataset
 
 ## Project Overview
 
-This project focuses on cleaning and preparing a real-world layoffs dataset using MySQL. The objective was to transform raw data into a clean and analysis-ready dataset by removing duplicates, handling missing values, standardizing data formats, and correcting inconsistencies.
+This project demonstrates data cleaning techniques in MySQL using a real-world layoffs dataset. The goal was to transform raw data into a clean and analysis-ready dataset by removing duplicates, handling missing values, standardizing formats, and correcting inconsistencies.
 
-## Skills Demonstrated
+## Skills Used
 
 * SQL
 * Data Cleaning
 * Window Functions (ROW_NUMBER)
 * Common Table Expressions (CTEs)
 * Joins
-* Aggregate Functions
 * Data Standardization
 * Null Value Handling
+* Date Conversion
 
 ## Data Cleaning Process
 
@@ -22,18 +22,36 @@ This project focuses on cleaning and preparing a real-world layoffs dataset usin
 3. Standardized company names.
 4. Standardized industry categories.
 5. Standardized country names.
-6. Converted date values to DATE format.
+6. Converted dates to DATE format.
 7. Handled NULL and blank values.
 8. Removed records with insufficient information.
 9. Produced a clean dataset ready for analysis.
 
+## Project Screenshots
+
+### Raw Dataset
+
+![Raw Dataset](screenshots/raw_dataset.png)
+
+### Duplicate Detection
+
+![Duplicate Detection](screenshots/duplicate_detection.png)
+
+### Data Cleaning Queries
+
+![Data Cleaning Queries](screenshots/data_cleaning_querie.png)
+
+### Final Cleaned Dataset
+
+![Final Cleaned Dataset](screenshots/cleaned_dataset.png)
+
 ## Files
 
-* DATA CLEANING.sql – Complete SQL cleaning script.
-* layoffs.xlsx – Original dataset.
-* screenshots/ – Project screenshots.
+* DATA CLEANING.sql
+* layoffs.csv
+* screenshots/
 
-## Project Outcome
+## Outcome
 
 The dataset was successfully cleaned and transformed into a structured format suitable for exploratory data analysis and business insights.
 
